@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header with Dropdowns</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	 <link rel="stylesheet" type="text/css" href="task1.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+        	<div class="circle">
+        	</div>
+        	<img src="images.png" class="image">
+            <a class="navbar-brand" class="h1" href="#">AGENCY</a>
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+                            <a class="dropdown-item" href="#">Page 1</a>
+                            <a class="dropdown-item" href="#">Page 2</a>
+                            <a class="dropdown-item" href="#">Page 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="portfolioDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="portfolioDropdown">
+                            <a class="dropdown-item" href="#">Portfolio 1</a>
+                            <a class="dropdown-item" href="#">Portfolio 2</a>
+                            <a class="dropdown-item" href="#">Portfolio 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="vlogDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Vlog
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="vlogDropdown">
+                            <a class="dropdown-item" href="#">Vlog 1</a>
+                            <a class="dropdown-item" href="#">Vlog 2</a>
+                            <a class="dropdown-item" href="#">Vlog 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="cont1">
+    <div class="left">
+      <p class="h1" id="heading1">We Are Business Counsulting Agency</p>
+      <p class="para1">We are here to deliver you inovative cool idea about bussiness.Come to us and discue for your dream business.</p>
+        <button class="btn btn1">Learn More</button>
+        <button class="btn btn2">See Portfolio</button>
+    </div>
+    <div class="right">
+      <img src="image1.png" alt="Your Image" style="height: 600px;">
+    </div>
+  </div>
+  <div class="container cont2">
+  	<p class="h1 heading2">Our Working Process</p>
+  	<p class="para2">Consulted he eagerness unfeeling deficient existence of.Calling nothing end fertile for venture way boy.Esteem spirit temper too say adieus who direct esteem.</p>
+  </div>
+  <div class="container cont3">
+    <div class="row">
+        <div class="col-md-3 b1">
+            <i class="fa-regular fa-lightbulb icon1"></i>
+            <h1 class="heading3">Idea Generate</h1>
+            <p class="para3">Contarary to popular belief lorem Ipsum empty</p>
+            <i class="fa-solid fa-arrow-right icon2"></i>
+        </div>
+        <div class="col-md-3 b1">
+            <i class="fa-solid fa-chart-simple icon1"></i>
+            <h1 class="heading3">Strategy Build</h1>
+            <p class="para3">Contarary to popular belief lorem Ipsum empty</p>
+            <i class="fa-solid fa-arrow-right icon2"></i>
+        </div>
+        <div class="col-md-3 b1">
+            <i class="fa-solid fa-bullseye icon1"></i>
+            <h1 class="heading31">Goal Set</h1>
+            <p class="para3">Contarary to popular belief lorem Ipsum empty</p>
+            <i class="fa-solid fa-arrow-right icon2"></i>
+        </div>
+        <div class="col-md-3 b1">
+            <i class="fa-regular fa-handshake icon1"></i>
+            <h1 class="heading3">Relationship</h1>
+            <p class="para3">Contarary to popular belief lorem Ipsum empty</p>
+            <i class="fa-solid fa-arrow-right icon2"></i>
+        </div>
+    </div>
+</div>
+<div class="container" id="cont4">
+    <div class="l1">
+    	<img src="images.jpeg">
+    </div>
+    <div class="r1">
+    	<h1 class="h11">Our Professional Guidence</h1>
+    	<h1 class="h11">Incress Success Rate</h1>
+    	<p class="para4">Sed ut perspiciatis unde omni iste natus error sit voluptatem accusantium doloremque laudantium,totam rem aperiam, eaque ipsa quae ab illo inventore veritatis etc.</p>
+        <i class="fa-regular fa-square-check icon3"></i><span class="s1">Award wining world wide agency</span><br>
+    	<i class="fa-regular fa-square-check icon3"></i><span class="s1">Many projects done succesfully</span><br>
+    	<i class="fa-regular fa-square-check icon3"></i><span class="s1">Maintaing relationship with clients</span><br>
+    	<i class="fa-regular fa-square-check icon3"></i><span class="s1">Professional market analysis team</span><br>
+    </div>
+  </div>
+  <div class="container" id="cont1">
+    <div class="left">
+      <p class="h1" id="heading4">We Are Powerful Business Counsultant Agency</p><br><br>
+      <p class="para1">sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,eaque ipsa quae ab illo inventore veritatis etc.</p>
+      <br>
+      <p class="para1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p><br>
+        <button class="btn btn1">See Projects</button>
+        <button class="btn btn2">Free Consultant</button>
+    </div>
+    <div class="right">
+      <img src="image2.png" alt="Your Image" style="height: 600px;">
+    </div>
+  </div>
+  <div class="container cont2">
+  	<p class="h1 heading2">Choose Your Right Solution</p>
+  	<p class="para2">Consulted he eagerness unfeeling deficient existence of.Calling nothing end fertile for venture way boy.Esteem spirit temper too say adieus who direct esteem.</p>
+  </div>
+  <div class="container cont3">
+    <div class="row">
+        <div class="col-md-3 b1">
+            <i class="fa-regular fa-lightbulb icon1"></i>
+            <h1 class="heading5">It Consulting</h1><br>
+            <button class="btn btn2">Join Us Now</button>
+        </div>
+        <div class="col-md-3 b1">
+            <i class="fa-solid fa-chart-simple icon1"></i>
+            <h1 class="heading5">Financial Plan</h1><br>
+            <button class="btn btn2">Join Us Now</button>
+        </div>
+        <div class="col-md-3 b1">
+            <i class="fa-solid fa-bullseye icon1"></i>
+            <h1 class="heading5">Business Growth</h1><br>
+            <button class="btn btn2">Join Us Now</button>
+        </div>
+        <div class="col-md-3 b1">
+            <i class="fa-regular fa-handshake icon1"></i>
+            <h1 class="heading5">Market Analysis</h1><br>
+            <button class="btn btn2">Join Us Now</button>
+        </div>
+    </div>
+</div>
+<div class="container cont4">
+	<h1 class="h12">Ready!Get Your Free Quote Today</h1>
+	<p class="para4">We are 24/7 here for chat or call us Toll free 454-22201121</p>
+    <form>
+        <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Name">
+            <input type="email" class="form-control" placeholder="Email">
+            <button class="btn btn2">Try Now</button>
+        </div>
+    </form>
+</div>
+<div class="container cont2">
+  	<p class="h1 heading2">Projects We Have Done</p>
+  	<p class="para2">Consulted he eagerness unfeeling deficient existence of.Calling nothing end fertile for venture way boy.Esteem spirit temper too say adieus who direct esteem.</p>
+  </div>
+<div class="container cont5">
+    <div class="row">
+        <div class="col-md-3 b1">
+            <img src="15.jpg" style="height:300px;width: 300px;">
+        </div>
+        <div class="col-md-3 b1">
+            <img src="16.png" style="height:300px;width: 300px;">
+        </div>
+        <div class="col-md-3 b1">
+            <img src="18.jpg" style="height:300px;width: 300px;">
+        </div>
+    </div>
+</div>
+<div class="container cont5">
+    <div class="row">
+        <div class="col-md-3 b1">
+            <img src="images (1).png" style="height:300px;width: 300px;">
+        </div>
+        <div class="col-md-3 b1">
+            <img src="10.webp" style="height:300px;width: 300px;">
+        </div>
+        <div class="col-md-3 b1">
+            <img src="20.png" style="height:300px;width: 300px;">
+        </div>
+    </div>
+</div>
+    <button class="btn btn3">See More Work</button>
+</div>
+<div class="container cont2">
+  	<p class="h1 heading2">Our Agency Statistics</p>
+  	<p class="para2">Consulted he eagerness unfeeling deficient existence of.Calling nothing end fertile for venture way boy.Esteem spirit temper too say adieus who direct esteem.</p>
+  </div>
+<div class="container">
+	<img src="download (1).jpeg" style="height:400px;width:400px;margin-left: 400px;">
+	<div class="row">
+        <div class="col-md-2 b1">
+            <p class="h5" style="color: blue;">1,200</p>
+            <p class="h5">PROJECTS DONE</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2 b1">
+            <p class="h5" style="color: blue;">1,200</p>
+            <p class="h5">PROJECTS DONE</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2 b1">
+            <p class="h5" style="color: blue;">1,200</p>
+            <p class="h5">PROJECTS DONE</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2 b1">
+            <p class="h5" style="color: blue;">1,200</p>
+            <p class="h5">PROJECTS DONE</p>
+        </div>
+        <div class="col-md-1"></div>
+</div>
+<div class="container cont2">
+  	<p class="h1 heading2">Clients Feedback</p>
+  	<p class="para2">Consulted he eagerness unfeeling deficient existence of.Calling nothing end fertile for venture way boy.Esteem spirit temper too say adieus who direct esteem.</p>
+</div>
+<div class="container" id="cont1">
+    <div class="left">
+    	<img src="image2.png" style="height:300px;height:400px">
+    </div>
+    <div class="right">
+    	<br><br><br>
+    	<img src="16.png" style="height: 100px;width: 100px;">
+    	<span class="h1">Dhony Antony</span>
+    	<br><br><br>
+    	<p class="h4">Sed ut perspiciatis unde omni iste natus error sit voluptatem accusantium doloremque laudantium,totam rem aperiam, eaque ipsa quae ab illo inventore veritatis etc.acbd fghjnm kol,.gfdtyuijnm,mnvcfdtyuijhnbm.</p>
+    </div>
+  </div>
+  <div class="container">
+  	<h1>We Love To Work With Our Partners</h1>
+  </div>
+  <div class="container">
+  	<span class="h1">Are You Ready? Try A Demo For Free Consultation</span>
+  	<button class="btn btn2">Contact Now</button>
+  </div><br><br>
+  <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>About</h4>
+                <p>We always try to give our best quality guidance for our all clients.So they will success & growth buusiness well.</p>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-twitter" style="padding-left: 5px;"></i>
+                <i class="fa-brands fa-instagram" style="padding-left: 5px;"></i>
+            </div>
+            <div class="footer-column">
+                <h4>Services</h4>
+                <a class="footer-link" href="#">IT Consultant</a>
+                <a class="footer-link" href="#">Business Growth</a>
+                <a class="footer-link" href="#">Investment Plan</a>
+                <a class="footer-link" href="#">Product Development</a>
+                <a class="footer-link" href="#">Industrial Consultant</a>
+            </div>
+            <div class="footer-column">
+                <h4>Support</h4>
+                <a class="footer-link" href="#">Documnetation</a>
+                <a class="footer-link" href="#">Product</a>
+                <a class="footer-link" href="#">Reporting Issue</a>
+                <a class="footer-link" href="#">Terms & Conditions</a>
+                <a class="footer-link" href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <a class="footer-link" href="#">Home</a>
+                <a class="footer-link" href="#">About</a>
+                <a class="footer-link" href="#">Services</a>
+                <a class="footer-link" href="#">Pricing</a>
+                <a class="footer-link" href="#">Contact</a>
+            </div>
+        </div>
+        <div><p><center>2020 - Lala by Laralink.All rights Reserved.</center></p></div>
+    </footer>
+</body>
+</html>
